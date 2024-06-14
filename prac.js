@@ -1,5 +1,16 @@
+function LevelTwo() {
+    console.log("Inside Level Two!")
+    }
+    
+    function LevelOne() {
+    LevelTwo()
+    console.log("Inside Level one!")
 
-const arr =[1,2,3]
-
-const news = arr.forEach( arr >= 2)
-console.log(news);
+    }
+    
+    function main() {
+    LevelOne()
+    }
+    
+    main()
+    
